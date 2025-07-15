@@ -1,0 +1,156 @@
+*{  
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:  hsl(30, 10%, 34%);
+    
+
+}
+
+.parent{
+    width: 100vw;
+    background-color: hsl(0, 0%, 100%);
+    
+   
+
+}
+.disc{
+    width: 100%;
+
+}
+.disc h2{
+    margin-bottom: 20px;
+
+}
+
+.pre-time{
+    background-color: hsl(330, 100%, 98%);
+    margin: 30px 0;
+    padding: 20px;   
+
+
+}
+.pre-time h3{
+    color: hsl(332, 51%, 32%);
+
+}
+.pre-time ul{
+    padding: 0 16px;
+}
+.pre-time li{
+    margin-top: 10px;
+    color: hsl(30, 10%, 34%);
+    padding-left: 20px;
+}
+
+
+.parent img{
+    width: 100%;
+    height: 200px;
+
+}
+.ingredients ul,
+.instrucions ol{
+    padding: 0 18px;
+    margin: 20px 0;
+    color: hsl(30, 10%, 34%);
+     
+
+}
+.ingredients li,
+.instrucions li{
+    padding-left: 20px;
+    padding-bottom: 10px;    
+  
+
+}
+.ingredients li::marker
+.instrucions li::marker
+{
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients h2,
+.instrucions h2{
+    color: hsl(14, 45%, 36%);
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+table td{
+    border-bottom: solid .5px #5f574e47;
+    padding: 10px 0;
+
+}
+
+.nutrition p{
+    margin: 20px 0;
+
+
+}
+.nutrition h2{
+    color: hsl(14, 45%, 36%);
+
+}
+
+td:nth-child(2){
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+h2{
+    margin-top: 20px;
+
+
+
+}
+.young-serif{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);
+
+
+}
+
+
+@media (min-width:375px){
+    body{
+        display: flex;
+        background-color: hsl(30, 54%, 90%);
+        
+        
+    }
+
+    .parent{
+        width: 50vw;
+        padding: 35px;
+        margin: 70px 0;
+        border-radius: 25px;
+        overflow: hidden;
+
+    }
+
+
+}
+hr{
+    border: none;
+    height: .5px;
+    background-color: #5f574e47;
+
+}
