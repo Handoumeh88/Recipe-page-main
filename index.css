@@ -21,12 +21,13 @@ body{
 .parent{
     width: 100vw;
     background-color: hsl(0, 0%, 100%);
-    
    
 
 }
 .disc{
     width: 100%;
+    padding: 0 35px; 
+
 
 }
 .disc h2{
@@ -129,10 +130,11 @@ h2{
 }
 
 
-@media (min-width:375px){
+@media (min-width:675px){
     body{
         display: flex;
         background-color: hsl(30, 54%, 90%);
+        
         
         
     }
